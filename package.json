@@ -1,0 +1,17 @@
+{
+	"name": "anime",
+	"version": "1.0.0",
+	"description": "Anime catalog",
+	"scripts": {
+		"main": "sass --watch src/scss:docs/css --style compressed & webpack --watch",
+		"sass": "sass --watch src/scss:docs/css --style compressed",
+		"js": "webpack --watch"
+	},
+	"devDependencies": {
+		"webpack": "^5.4.0",
+		"webpack-cli": "^4.2.0"
+	},
+	"keywords": [],
+	"author": "MrBoomDev",
+	"license": "ISC"
+}

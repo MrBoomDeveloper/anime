@@ -1,0 +1,1 @@
+fetch("https://api.myanimelist.net/v2/anime/1",{headers:{Authorization:"Bearer eee534860a4b9d62848f4729a062c5a70383b9b2eb67d222f0b4af9dcf1c3332"}}).then((e=>e.json())).then(console.log).catch(console.log);
